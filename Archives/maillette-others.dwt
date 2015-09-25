@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta name="Keywords" content="comtemporary artist, madison, wisconsin, central wisconsin, abstract artist, acrylic, mixed media, abstracted, landscape, wisconsin dells artist, baraboo artist" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../housekeeping/suzanne_maillette.css" rel="stylesheet" type="text/css" />
+
+<!-- #BeginEditable "doctitle" -->
+<title>Suzanne Marie Maillette</title>
+<!-- #EndEditable -->
+</head>
+
+<body>
+  <p class="centered">	<img src="../housekeeping/header_image.jpg" width="700" height="100" alt="Web Site Title" /> </p>
+  <p class="navigation centered">
+    <a href="../index.html">Home</a> | 
+    <a href="../gallery.html">Gallery</a>  | 
+    <a href="../contact.html">Contact</a>   | 
+    <a href="../about_artist.html">About Suzanne</a>
+  </p>
+<!-- #BeginEditable "body" -->
+  <div>
+
+  </div>
+<!-- #EndEditable -->
+  <p class="navigation centered">
+    <a href="../index.html">Home</a> | 
+    <a href="../gallery.html">Gallery</a>  | 
+    <a href="../contact.html">Contact</a>   | 
+    <a href="../about_artist.html">About Suzanne</a>
+  </p>
+  <p class="centered"> &copy; 2012 Copyright Suzanne Maillette. All rights reserved.</p>
+</body>
+</html>

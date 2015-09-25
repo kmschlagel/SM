@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- #BeginTemplate "Archives/maillette-gallery.dwt" -->
+<head>
+	<meta name="Keywords"
+	      content="comtemporary artist, madison, wisconsin, central wisconsin, abstract artist, acrylic, mixed media, abstracted, landscape, wisconsin dells artist, baraboo artist"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<script type="text/javascript" src="scripts/js/dropdownmenu.js"></script>
+	<link rel="stylesheet" href="styles/css/lightbox.css" type="text/css" media="screen"/>
+	<link href="styles/css/suzanne_maillette.css" rel="stylesheet" type="text/css"/>
+	<!-- #BeginEditable "doctitle" -->
+	<title>Maillette: New Work</title>
+	<!-- #EndEditable -->
+</head>
+<body>
+<div class="pad-bottom">
+	<a href="index.html" style="text-decoration: none; border: 0;"><img src="styles/header_image.jpg" class="centered" width="700" height="100" alt="Suzanne Maillette"/></a>
+</div>
+<div id="dropdownmenu">
+	<ul id="sddm">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#"
+		       onmouseover="mopen('m1')"
+		       onmouseout="mclosetime()">Galleries</a>
+
+			<div id="m1"
+			     onmouseover="mcancelclosetime()"
+			     onmouseout="mclosetime()">
+				<a href="current-works.html">Current Works</a>
+				<a href="sold-works.html">Sold Works</a>
+			</div>
+		</li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="#"
+		       onmouseover="mopen('m2')"
+		       onmouseout="mclosetime()">About</a>
+
+			<div id="m2"
+			     onmouseover="mcancelclosetime()"
+			     onmouseout="mclosetime()">
+				<a href="artist_statement.html">Statement</a>
+				<a href="artist_resume.html">Resume</a>
+			</div>
+		</li>
+	</ul>
+	<div> &nbsp;</div>
+</div>
+<div class="centered">
+	<!-- #BeginEditable "body" -->
+	<div class="centered grid-container clearfix">
+		<h2>Current Works</h2>
+
+		<p class="italics">Click on image for larger view</p>
+		<div class="grid-med">
+			<a href="images/med/_current/SM_MoonRise.jpg" rel="lightbox[new]" title="Moon Rise, (48x30)">
+				<img src="images/thumbs/_current/SM_MoonRise.jpg" alt="Moon Rise" class="noborder centered"/></a>
+		</div>
+		<div class="grid-med">
+			<a href="images/med/_current/SM_BlueHorizon.jpg" rel="lightbox[new]" title="Blue Horizon, (36x30)">
+				<img src="images/thumbs/_current/SM_BlueHorizon.jpg" alt="Blue Horizon" class="noborder centered"/></a>
+		</div>
+		<div class="grid-med">
+			<a href="images/med/_current/SM_BoundaryLines.jpg" rel="lightbox[new]" title="Boundary Lines, (48x36)">
+				<img src="images/thumbs/_current/SM_BoundaryLines.jpg" alt="Boundary Lines" class="noborder centered"/></a>
+		</div>
+		<div class="grid-med">
+			<a href="images/med/_current/SM_IceCastles.jpg" rel="lightbox[new]" title="Ice Castles, (36x36)">
+				<img src="images/thumbs/_current/SM_IceCastles.jpg" alt="Ice Castles" class="noborder centered"/></a>
+		</div>
+		<div class="grid-med">
+			<a href="images/med/_current/SM_DistantHorizon.jpg" rel="lightbox[new]" title="Distant Horizon (40x60)">
+				<img src="images/thumbs/_current/SM_DistantHorizon.jpg" alt="Distant Horizon" class="noborder centered"/></a>
+		</div>
+		<div class="grid-med">
+			<a href="images/med/_current/SM_ABlueSail.jpg" rel="lightbox[new]" title="A Blue Sail, (36x60)">
+				<img src="images/thumbs/_current/SM_ABlueSail.jpg" alt="A Blue Sail" class="noborder centered"/></a>
+		</div>
+		<div class="grid-med">
+			<a href="images/med/_current/SM_FireFly.jpg" rel="lightbox[new]" title="Fire Fly, (36x60)">
+				<img src="images/thumbs/_current/SM_FireFly.jpg" alt="Fire Fly" class="noborder centered"/></a>
+		</div>
+
+	</div>
+	<a href="current-works2.html">Next &raquo;></a>
+
+	<p>Availability: Original Painting &amp; Giclee Prints</p>
+	<!-- #EndEditable -->
+</div>
+<p class="navigation centered">
+	<a href="current-works.html">Current Works</a> |
+	<a href="sold-works.html">Sold Works</a> |
+	<a href="contact.html">Gallery Locations</a>
+</p>
+
+<p class="centered copy"> &copy; 2012 Copyright Suzanne Maillette. All rights reserved.</p>
+<script src="scripts/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="scripts/js/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+<script src="scripts/js/jquery.smooth-scroll.min.js" type="text/javascript"></script>
+<script src="scripts/js/lightbox.js" type="text/javascript"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function ($) {
+		$('a').smoothScroll({
+			speed: 1000,
+			easing: 'easeInOutCubic'
+		});
+
+		$('.showOlderChanges').on('click', function (e) {
+			$('.changelog .old').slideDown('slow');
+			$(this).fadeOut();
+			e.preventDefault();
+		})
+	});
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-2196019-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</body>
+<!-- #EndTemplate -->
+</html>
